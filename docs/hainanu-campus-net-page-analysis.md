@@ -99,7 +99,7 @@
 ```javascript
 var CONFIG = {
     page   : 'success',                  // 当前页面: login / success
-    ip     : "2409:875e:a030:1001:1c::7a17",  // 客户端 IP
+    ip     : "xxx:xxxx:xxxx:xxxx::xxxx",  // 客户端 IP
     nas    : "",                          // NAS 设备
     mac    : "",                          // MAC 地址
     url    : "",                          // 原始请求 URL

@@ -11,8 +11,71 @@
 
 ### 前置条件
 
-- [Node.js](https://nodejs.org/) >= 18
 - [Google Chrome](https://www.google.com/chrome/) 浏览器
+
+### 安装 Node.js
+
+> 已安装 Node.js 可跳过此步骤。可通过 `node -v` 检查是否已安装。
+
+<details>
+<summary><b>Windows</b></summary>
+
+1. 访问 https://nodejs.org/
+2. 下载 LTS 版本（.msi 安装包）
+3. 双击运行，按向导完成安装
+4. 打开 CMD/PowerShell，验证安装：
+   ```cmd
+   node -v
+   npm -v
+   ```
+</details>
+
+<details>
+<summary><b>macOS</b></summary>
+
+**方式一：官网安装**
+1. 访问 https://nodejs.org/
+2. 下载 LTS 版本（.pkg 安装包）
+3. 双击运行，按向导完成安装
+
+**方式二：Homebrew 安装**
+```bash
+brew install node
+```
+
+验证安装：
+```bash
+node -v
+npm -v
+```
+</details>
+
+<details>
+<summary><b>Linux</b></summary>
+
+**Ubuntu/Debian**
+```bash
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+**CentOS/RHEL**
+```bash
+curl -fsSL https://rpm.nodesource.com/setup_lts.x | sudo -E bash -
+sudo yum install -y nodejs
+```
+
+**Arch Linux**
+```bash
+sudo pacman -S nodejs npm
+```
+
+验证安装：
+```bash
+node -v
+npm -v
+```
+</details>
 
 ### 安装步骤
 

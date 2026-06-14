@@ -20,39 +20,17 @@ cd hainanu-auto-login
 npm install
 ```
 
-### 配置快捷命令
-
-#### Windows
-
-**方式一：创建 bat 文件（推荐）**
-
-1. 在项目目录创建 `educnt.bat` 文件：
-
-```bat
-@echo off
-node "%~dp0educnt-login.js" %*
-```
-
-2. 复制到 PATH 目录：
-
-```cmd
-copy educnt.bat C:\Windows\System32\
-```
-
-**方式二：添加环境变量**
-
-1. 打开"系统属性" → "高级" → "环境变量"
-2. 在"系统变量"中找到 `Path`，点击"编辑"
-3. 点击"新建"，添加项目的完整路径，例如：
-   ```
-   C:\Users\你的用户名\hainanu-auto-login
-   ```
-4. 确定保存，重启终端
-
-#### macOS/Linux
+### 注册命令
 
 ```bash
-# 添加别名到 shell 配置文件
+npm link
+```
+
+执行后即可在任意位置使用 `educnt` 命令。
+
+macOS/Linux 也可以用别名方式：
+
+```bash
 echo 'alias educnt="node /path/to/hainanu-auto-login/educnt-login.js"' >> ~/.zshrc
 source ~/.zshrc
 ```

@@ -9,43 +9,33 @@
 - [Node.js](https://nodejs.org/) >= 18
 - [Google Chrome](https://www.google.com/chrome/) 浏览器
 
-### 方式一：npm 全局安装（推荐）
-
-```bash
-npm install -g educnt
-```
-
-安装完成后直接使用 `educnt` 命令。
-
-### 方式二：手动安装
+### 安装步骤
 
 ```bash
 # 克隆仓库
 git clone https://github.com/taffy123d/hainanu-auto-login.git
-cd educnt
+cd hainanu-auto-login
 
 # 安装依赖
 npm install
-
-# 运行（三种方式任选）
-node educnt-login.js          # 直接运行
-npx educnt                    # 通过 npx 运行
 ```
 
-#### Windows 用户快捷方式
+### 配置快捷命令
+
+#### Windows
 
 创建 `educnt.bat` 文件，放到 PATH 目录（如 `C:\Windows`）：
 
 ```bat
 @echo off
-node "C:\path\to\educnt\educnt-login.js" %*
+node "C:\path\to\hainanu-auto-login\educnt-login.js" %*
 ```
 
-#### macOS/Linux 用户快捷方式
+#### macOS/Linux
 
 ```bash
 # 添加别名到 shell 配置文件
-echo 'alias educnt="node /path/to/educnt/educnt-login.js"' >> ~/.zshrc
+echo 'alias educnt="node /path/to/hainanu-auto-login/educnt-login.js"' >> ~/.zshrc
 source ~/.zshrc
 ```
 

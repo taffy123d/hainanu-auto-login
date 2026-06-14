@@ -1,0 +1,54 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - img "logo" [ref=e4] [cursor=pointer]
+    - generic [ref=e5]: 校园网上网认证
+  - generic:
+    - generic [ref=e6]:
+      - heading "您已成功登录" [level=3] [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]: 用户账号
+        - text: "20243004914"
+      - generic [ref=e11]:
+        - generic [ref=e12]: 已用流量
+        - text: 160.42 GB
+      - generic [ref=e13]:
+        - generic [ref=e14]: 已用时长
+        - text: 596小时26秒
+      - generic [ref=e15]:
+        - generic [ref=e16]: 账户余额
+        - text: "20.00"
+      - generic [ref=e17]:
+        - generic [ref=e18]: IP 地址
+        - text: 2409:875e:a030:1001:1c::7a17
+      - generic [ref=e19]:
+        - button "注销" [ref=e20] [cursor=pointer]
+        - button "自助服务" [ref=e21] [cursor=pointer]
+    - generic [ref=e22]:
+      - heading "校园网使用指南" [level=3] [ref=e24]:
+        - link "校园网使用指南" [ref=e25] [cursor=pointer]:
+          - /url: https://its.hainanu.edu.cn/info/1099/2024.htm
+      - generic [ref=e26]:
+        - paragraph [ref=e27]:
+          - strong [ref=e28]: 学生校园网账号开通步骤：
+        - paragraph [ref=e29]:
+          - strong [ref=e30]: 第一步：修改校园网套餐，将“内网免费”套餐转移到访问互联网套餐。
+          - text: PC端登录校园网自助服务系统（
+          - link "https://xywzz.hainanu.edu.cn" [ref=e31] [cursor=pointer]:
+            - /url: https://xywzz.hainanu.edu.cn
+          - text: ）或移动端访问海南大学移动门户的校园网自助服务，点击“产品”-“转移产品”选择校园网套餐，根据提示完成操作。
+        - paragraph [ref=e32]:
+          - strong [ref=e33]: 第二步：
+          - strong [ref=e34]: 在微信小程序搜索打开“海大e卡”小程序→选择“校园网交费”根据提示完成缴费
+          - text: 。
+        - paragraph [ref=e35]: 完成以上操作后，您的校园网账号已经开通互联网访问。操作详情请点击以下：
+        - paragraph [ref=e36]:
+          - link "校园网使用指南" [ref=e37] [cursor=pointer]:
+            - /url: https://its.hainanu.edu.cn/info/1099/2024.htm
+        - paragraph:
+          - generic:
+            - strong
+        - paragraph [ref=e38]: 校园网服务电话：66250099
+        - paragraph
+  - generic [ref=e39]:
+    - img [ref=e40] [cursor=pointer]
+    - paragraph [ref=e41]: "Copyright © 2020 Hainan University All Rights Reserved 海南大学信息化服务中心 校园网服务热线：66250099 邮箱: 66250099@hainanu.edu.cn"

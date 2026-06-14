@@ -1,0 +1,29 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - img "logo" [ref=e4] [cursor=pointer]
+    - generic [ref=e5]: 校园网上网认证
+    - combobox [ref=e6]:
+      - option "语言 / Language" [selected]
+      - option "中文 (简体)"
+      - option "English"
+  - generic [ref=e7]:
+    - heading "账号登录" [level=3] [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]: person
+      - textbox "账号" [ref=e12]:
+        - /placeholder: 请输入账号
+    - generic [ref=e13]:
+      - generic [ref=e14]: lock
+      - textbox "密码" [ref=e15]:
+        - /placeholder: 请输入密码
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - checkbox "记住密码" [ref=e18] [cursor=pointer]
+        - text: 记住密码
+      - generic [ref=e19] [cursor=pointer]: 忘记密码
+    - generic [ref=e20]:
+      - button "登录" [ref=e21] [cursor=pointer]
+      - button "自助服务" [ref=e22] [cursor=pointer]
+  - generic [ref=e23]:
+    - img [ref=e24] [cursor=pointer]
+    - paragraph [ref=e25]: "Copyright © 2020 Hainan University All Rights Reserved 海南大学信息化服务中心 校园网服务热线：66250099 邮箱: 66250099@hainanu.edu.cn"

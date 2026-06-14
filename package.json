@@ -1,0 +1,25 @@
+{
+  "name": "educnt",
+  "version": "1.0.0",
+  "description": "海南大学校园网自动登录工具",
+  "main": "educnt-login.js",
+  "bin": {
+    "educnt": "./educnt-login.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hainanu",
+    "campus",
+    "network",
+    "auto-login",
+    "srun"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
